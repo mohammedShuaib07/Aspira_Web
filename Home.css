@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    margin: auto;
+}
 
 /* section styling */
 
@@ -137,7 +140,8 @@ section {
 .about-container #about_head {
     position: absolute;
     text-align: center;
-    margin-top: -8%;
+    margin-top: 5%;
+    
 }
 
 .about-container h1 {
@@ -184,7 +188,7 @@ section {
     padding: 0px 20px;
     overflow-y: auto;
     margin: -150% 38%;
-    margin-top: -150%;
+    margin-top: -40%;
 }
 
 .about-text p {
@@ -516,6 +520,20 @@ a:hover:after {
     .main #cont .button-group3 {
         margin-right: 80%;
     }
+    .sponcer-container {
+        margin-top: 55px;
+        height: 120vh;
+    }
+}
+@media screen and (max-width:1063px) {
+    
+.about-container #about_head {
+   
+    margin-top: -8%;
+}
+.main #cont .button-group3 {
+    margin-right: 75%;
+}
 }
 
 @media screen and (max-width:1030px) {
@@ -526,9 +544,16 @@ a:hover:after {
     .about-container h1 {
         margin-top: 118px;
     }
-
+    .about-text p {
+       
+        height: 35%;
+    }
     .main #cont .button-group3 {
         margin-right: 74%;
+    }
+    .sponcer-container {
+        margin-top: 55px;
+        height: 110vh;
     }
 }
 
@@ -563,7 +588,10 @@ a:hover:after {
     } */
     .about-container .about-text {
         width: 60%;
-        margin-top: -80%;
+        /* margin-top: -80%; */
+    }
+    .about-text p {
+        height: 50%;
     }
 
     .main #cont h4,
@@ -575,11 +603,23 @@ a:hover:after {
     .button-group3 {
         margin-right: 60%;
     }
+    .sponcer-container {
+        margin-top: 55px;
+        height: 134vh;
+    }
 
+}
+@media screen and (max-width: 921px) {
+    .main #cont .button-group3 {
+        margin-right: 70%;
+    }
 }
 
 
 @media screen and (max-width: 850px) {
+    .intro-container #img_1 {
+        width: 103%;
+    }
 
 
     .intro-container {
@@ -589,7 +629,7 @@ a:hover:after {
     .intro-container div {
         width: 100%;
     }
-
+  
     .intro-left {
         height: 100%;
     }
@@ -597,12 +637,15 @@ a:hover:after {
     .intro-right {
         height: 80vh;
     }
+    
+    
+
 
     /* about */
 
     .about-container .about-text {
         width: 60%;
-        margin-top: -97%;
+        margin-top: -50%;
     }
 
     .about-text p {
@@ -667,6 +710,10 @@ a:hover:after {
     }
 
     /* sponser */
+    .sponcer-container {
+        margin-top: 55px;
+        height: 120vh;
+    }
 
     .sponcer-container .main #log img {
         width: 12rem;
@@ -696,7 +743,32 @@ a:hover:after {
 }
 
 @media screen and (max-width:750px) {
+    .sponcer-container {
+      
+        height: 120vh;
+    }
+    .about-container h1 {
+        
+        margin-left: 33px;
+    }
     
+}
+@media screen and (max-width:700px) {
+    .about-container h1 {
+        
+        margin-left: 55px;
+    }
+    .about-text p {
+        height: 85%;
+    }
+    .sponcer-container {
+        height: 136vh;
+    }
+}
+@media screen and (max-width:651px) {
+    .sponcer-container {
+        height: 145vh;
+    }
 }
 
 
@@ -704,28 +776,34 @@ a:hover:after {
 @media screen and (max-width:610px) {
 
     .about-container h1 {
-        margin-top: 15%;
+        margin-top: 45%;
     }
 
     .about-container .about-text {
         width: 60%;
-        margin-top: -120%;
+        /* margin-top: -120%; */
     }
 
     .crd_bdy {
         gap: 20px
     }
 }
+@media screen and (max-width:584px) {
+    .sponcer-container {
+        height: 155vh;
+    }
+}
 
 @media screen and (max-width:550px) {
 
     body {
-        width: 100%;
+        margin: auto;
     }
 
-    .intro-container #img_1 {
-        width: 110%;
-    }
+   
+     .intro-container #img_1 {
+        width: 100%;
+    } 
 
     .intro-left h1:nth-child(1) {
         font-size: 35px;
@@ -746,7 +824,7 @@ a:hover:after {
     }
 
     .about-container h1 {
-        margin-top: 25%;
+        margin-top: 28%;
     }
 
     .about-container #row {
@@ -758,24 +836,56 @@ a:hover:after {
     }
 
     .about-container #row .about-image img {
-        height: 25%;
-        margin-top: -15rem;
+        height: 40%;
+        margin-top: -5rem;
+        margin-left: 8rem;
+    }
+    .about-text p {
+        margin-left: 40px;
     }
 
-    .about-container .about-text {
+    .about-container #about_head {
+        
+        margin-top: -3%;
+        margin-left: 5rem;
+    }
+    .about-text p {
+        margin-left: 7rem;
+    }
+
+    .about-container .about-text  {
         width: 100%;
         margin: 0px;
-        margin-top: -99%;
+        margin-top: -30%;
+    } 
+     
+    .about-container .button-group2 { 
+        margin-top: -9rem;
+        margin-left: -10rem;
+    }
+    .aspirant-container {
+      
+        margin-left: 4rem;
     }
 
     .aspirant-container #crd_hover {
-        height: 50vh;
-        align-items: center;
+        /* height: 50vh; */
+        /* align-items: center; */
         margin-top: -27px;
     }
 
     .crd_bdy {
-        flex-wrap: wrap;
+        flex-wrap:nowrap;
+    }
+
+    .main #log {
+       
+        margin-left: 128px;
+        margin-top: -8rem;
+    }
+    .sponcer-container {
+      
+        margin-left: 4rem;
     }
 
 
@@ -785,19 +895,60 @@ a:hover:after {
         margin-left: 5%;
     }
 
-    .sponcer-container #gif img {
-        width: 250px;
-        height: 620px;
-    }
+     .sponcer-container #gif img {
+     
+       
+            width: 265px;
+            height: 550px;
+          
+            margin-top: 0px;
+            margin-left: 9rem;
+        }
+    
 
-    .main #cont {
+    .main #cont { 
         width: 100%;
-        margin-top: 35%;
+        margin-top: 55%;
         font-size: 15px;
     }
 
     .main #cont .button-group3 {
         margin-left: 38px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .intro-container #img_1 {
+        width: 100%;
+    }
+    .about-container h1 {
+        margin-top: 26%;
+    }
+    .about-container .about-text {
+       
+        margin-top: -35%;
+    }
+    .main #cont {
+        
+        margin-top: 65%;
+        
+    }
+}
+@media screen and (max-width:439px) {
+    /* #nav-button {
+        margin-right: 50px;
+    } */
+    .aspirant-container #crd_hover {
+       
+        margin-left: 25px;
+    }
+    .sponcer-container #gif img {
+        
+        margin-left: 7rem;
+    }
+    .main #log {
+        margin-left: 106px;
+        margin-top: -5rem;
     }
 }
 
@@ -824,23 +975,33 @@ a:hover:after {
         padding: 8px 15px;
         font-size: 12px;
     }
+    .about-container #about_head {
+       
+        margin-top: -7%;
+    }
 
-    .about-container #row .about-image img {
-        width: 250px;
-        height: 25%;
-        margin-top: -15rem;
+    .about-container #row .about-image img{
+        
+            width: 359px;
+            height: 40%;
+            margin-top: -7rem;
+        
     }
 
     .about-container .about-text {
         width: 100%;
-        margin-top: -140%;
+        margin-top: -40%;
     }
 
     .aspirant-container #crd_hover {
         height: 65vh;
         align-items: center;
-        margin-top: 5%;
-        margin-left: 25%;
+        margin-top: -15%;
+        margin-left: 10%;
+    }
+    .aspirant-container>h1 {
+        margin-left: 1rem;
+        font-size: 20px;
     }
 }
 
@@ -848,7 +1009,30 @@ a:hover:after {
     body{
         width: 100%;
     }
-    .about-container .about-text {
-        margin-top: -170%;
+    .intro-container #img_1 {
+        width: 100%;
     }
+    .about-container .about-text {
+        
+        margin-top: -45%;
+    }
+    #head {
+        margin-left: 6rem;
+    }
+    .sponcer-container {
+        height: 160vh;
+    }
+    #head {
+        margin-left: 2rem;
+    }
+   
+    .sponcer-container .main #log img {
+   
+    margin-left: -15%;
+}
+    .sponcer-container #gif img {
+        height: 500px;
+        margin-left: 2rem;
+    }
+    
 }
